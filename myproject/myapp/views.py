@@ -15,7 +15,8 @@ def index(request):
 
 
 def counter(request):
-    text = request.GET['text']
+    # text = request.GET['text']    #GET 사용시
+    text = request.POST['text']     #POST 사용시
     text_amount = len(text.split())
 
     return render(request, 'counter.html', {'amount': text_amount})
