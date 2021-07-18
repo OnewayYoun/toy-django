@@ -13,6 +13,8 @@ def index(request):
     #     'nationality': 'Korea'
     # }
     # return render(request, 'index.html', context)
+
+    # Models
     feature1 = Feature()
     feature1.id = 0
     feature1.name = 'Yoon'
