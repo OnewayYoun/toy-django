@@ -1,18 +1,24 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from .models import Feature
 
 # Create your views here.
 def index(request):
     # name = 'Yoon'
+    # return render(request, 'index.html', {'last_name': name})
+
     # context = {
     #     'last_name': 'Yoon',
     #     'age': 31,
     #     'nationality': 'Korea'
     # }
-    # return render(request, 'index.html', {'last_name': name})
     # return render(request, 'index.html', context)
-    return render(request, 'index.html')
+    feature1 = Feature()
+    feature1.id = 0
+    feature1.name = 'Yoon'
+    feature1.details = 'Hi! I"m Yoon'
+
+    return render(request, 'index.html', {'feature': feature1})
 
 
 def counter(request):
