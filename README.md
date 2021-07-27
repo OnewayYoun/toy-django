@@ -1,5 +1,10 @@
-# Django1
-_Project1 :_
-
+# Project With Django
 ` * Getting to know about Django`
-![home](./사진들/index(templates).PNG){: width="100" height="100"){: .center}
+
+---
+
+<p>
+<img src="./img/index(templates).PNG" width="200"/>
+</p>
+
+![home](img/index(templates).PNG)
