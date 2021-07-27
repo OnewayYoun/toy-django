@@ -21,3 +21,18 @@ Main Page (Home)
 
 ---
 
+3. User Registration
+
+<img src="./img/register.PNG" width="256" height="476"/>
+
+---
+
+4. Login(Auth)
+
+<img src="./img/Login.PNG" width="800" height="400"/>
+
+---
+
+5. Logout(Auth)
+
+<img src="./img/logged in.PNG" width="800" height="400"/>
