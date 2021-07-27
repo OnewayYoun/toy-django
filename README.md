@@ -5,8 +5,9 @@
 [comment]: <> (![home]&#40;img/index&#40;templates&#41;.PNG&#41;)
 
 1. Applying templates and static files
+   
+Main Page (Home)
 
-- Main Page (Home)
 <img src="./img/index(templates).PNG" width="800" height="500"/>
 
 ---
