@@ -13,9 +13,9 @@
 
 2. Admin Panel & Manipulation of Database
 <p>
-<img src="./img/Manipulation of Database.PNG" width="400" height="200"/>
-<img src="./img/Manipulation of Database0.PNG" width="400" height="200"/>
-<img src="./img/Manipulation of Database1.PNG" width="800" height="200"/>
+<img src="./img/Manipulation of Database.PNG" width="400" height="300"/>
+<img src="./img/Manipulation of Database0.PNG" width="400" height="300"/>
+<img src="./img/Manipulation of Database1.PNG" width="800" height="300"/>
 </p>
 
 ---
