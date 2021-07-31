@@ -1,6 +1,7 @@
 # Project With Django
 ` * Getting to know about Django`
 
+
 ---
 [comment]: <> (![home]&#40;img/index&#40;templates&#41;.PNG&#41;)
 
