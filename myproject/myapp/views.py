@@ -49,10 +49,12 @@ def index(request):
 
 def counter(request):
     # text = request.GET['text']    #GET 사용시
-    text = request.POST['text']  # POST 사용시
-    text_amount = len(text.split())
+    # text = request.POST['text']  # POST 사용시
+    # text_amount = len(text.split())
+    posts = [1, 2, 3, 4, 5, 'tim', 'youn', 'kim']
 
-    return render(request, 'counter.html', {'amount': text_amount})
+    return render(request, 'counter.html', {'posts': posts})
+
 
 def register(request):
     if request.method == 'POST':
@@ -98,3 +100,6 @@ def login(request):
 def logout(request):
     auth.logout(request)
     return redirect('/')
+
+def post(request, pk):
+    return render(request, 'post.html', {'pk': pk})
